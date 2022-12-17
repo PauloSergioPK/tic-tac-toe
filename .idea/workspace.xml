@@ -9,24 +9,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74039d47-c245-4b5e-b373-962974a40a36" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/common/src/androidMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/domain/model/MoveTypes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/domain/model/TicTacToe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/components/TicTacToe.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/res/drawable/ic_circle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/res/drawable/ic_cross.xml" afterDir="false" />
+    <list default="true" id="74039d47-c245-4b5e-b373-962974a40a36" name="Changes" comment="iniciado joguinho">
+      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/androidMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/androidMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/components/TicTacToe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/components/TicTacToe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/res/drawable/ic_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/resources/drawable/ic_circle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/res/drawable/ic_cross.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/resources/drawable/ic_cross.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\paulo\.android\avd\Pixel_4_API_31.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\paulo\.android\avd\Pixel_4_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -37,6 +37,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -80,7 +81,7 @@
       <recent name="C:\Users\paulo\Documents\DesktopComposeProjects\TicTacToe\TicTacToe\common\src\commonMain\kotlin\com\psrc\common\presentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Android App.android">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="TicTacToe.android.main" />
       <option name="DEPLOY" value="true" />
@@ -145,11 +146,19 @@
       <option name="project" value="LOCAL" />
       <updated>1671150292044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="iniciado joguinho">
+      <created>1671232923273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671232923273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="iniciado joguinho" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciado joguinho" />
   </component>
 </project>

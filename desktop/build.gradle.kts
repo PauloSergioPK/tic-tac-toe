@@ -24,6 +24,7 @@ kotlin {
                 implementation(project(":common"))
                 implementation(compose.desktop.currentOs)
             }
+            resources.srcDirs("src/commonMain/resources")
         }
         val jvmTest by getting
     }

@@ -51,7 +51,10 @@ kotlin {
 
 android {
     compileSdk = 33
-    sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    sourceSets["main"].apply{
+        manifest.srcFile("src/androidMain/AndroidManifest.xml")
+        res.srcDirs("src/androidMain/resources", "src/commonMain/resources")
+    }
     defaultConfig {
         minSdk = 21
         targetSdk = 33
