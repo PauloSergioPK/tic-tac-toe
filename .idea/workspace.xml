@@ -9,24 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74039d47-c245-4b5e-b373-962974a40a36" name="Changes" comment="iniciado joguinho">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+    <list default="true" id="74039d47-c245-4b5e-b373-962974a40a36" name="Changes" comment="ajustes joguinho">
+      <change afterPath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/R.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/androidMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/androidMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/components/TicTacToe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/kotlin/com/psrc/common/presentation/ui/components/TicTacToe.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/desktopMain/kotlin/com/psrc/common/presentation/ui/resources/Resources.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/res/drawable/ic_circle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/resources/drawable/ic_circle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/res/drawable/ic_cross.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/commonMain/resources/drawable/ic_cross.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\paulo\.android\avd\Pixel_4_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\paulo\.android\avd\Pixel_4_API_31.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -38,6 +31,7 @@
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="resourceFile" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -59,21 +53,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DEBUGGABLE_DEVICE": "Pixel_4_API_31 [emulator-5554]",
-    "DEBUGGABLE_PROCESS": "com.psrc.android",
-    "DEBUGGER_ID": "Java",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SHOW_ALL_PROCESSES": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "emulator"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DEBUGGABLE_DEVICE&quot;: &quot;Pixel_4_API_31 [emulator-5554]&quot;,
+    &quot;DEBUGGABLE_PROCESS&quot;: &quot;com.psrc.android&quot;,
+    &quot;DEBUGGER_ID&quot;: &quot;Java&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHOW_ALL_PROCESSES&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;emulator&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\paulo\Documents\DesktopComposeProjects\TicTacToe\TicTacToe\common\src\commonMain\kotlin\com\psrc\common" />
@@ -81,7 +75,7 @@
       <recent name="C:\Users\paulo\Documents\DesktopComposeProjects\TicTacToe\TicTacToe\common\src\commonMain\kotlin\com\psrc\common\presentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.android">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="android" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="TicTacToe.android.main" />
       <option name="DEPLOY" value="true" />
@@ -153,12 +147,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671232923273</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ajustes joguinho">
+      <created>1671235216671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671235216671</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="iniciado joguinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="iniciado joguinho" />
+    <MESSAGE value="ajustes joguinho" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes joguinho" />
   </component>
 </project>

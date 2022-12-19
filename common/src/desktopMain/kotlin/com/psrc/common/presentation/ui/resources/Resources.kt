@@ -6,10 +6,10 @@ import androidx.compose.ui.res.painterResource
 
 @Composable
 actual fun getCrossIconResource(): Painter {
-    return painterResource("drawable/ic_cross.xml")
+    return painterResource(R.drawable.ic_cross)
 }
 @Composable
 
 actual fun getCircleIconResource(): Painter {
-    return painterResource("drawable/ic_circle.xml")
+    return painterResource(R.drawable.ic_circle)
 }
